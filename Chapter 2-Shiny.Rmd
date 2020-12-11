@@ -5,11 +5,11 @@ date: "6/20/2020"
 output: html_document
 runtime: shiny
 ---
-  
-  ## Shiny Solutions
-  # Chapter 2
-  
-  Load Shiny Package
+
+## Shiny Solutions
+# Chapter 2
+
+Load Shiny Package
 ```{r}
 library(shiny)
 ```
@@ -24,7 +24,7 @@ ui <- fluidPage(textInput("name", label = "What's your name?"),
 
 server <- function(input, output){
   output$greeting <- renderText({
-    paste0("Hello ", input$name)
+  paste0("Hello ", input$name)
   })
 }
 shinyApp(ui, server)
