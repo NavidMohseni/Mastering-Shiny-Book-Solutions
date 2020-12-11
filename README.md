@@ -1,3 +1,3 @@
 # Mastering-Shiny-Book-Solutions
-We are trying to answer the exercises of "Mastering Shiny" by Hadley Wickham 
+I try to answer the exercises of "Mastering Shiny" by Hadley Wickham.
 
